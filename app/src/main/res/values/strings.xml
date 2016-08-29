@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lyra</string>
+    <string name="main_info_text"><b>Home screen:</b> Displays scrolling list of recent activity, storage space info, and a static footer with playback controls\n\n<b>Technical hurdles:</b> Create a navigation bar, always exit app when pressing back from home screen like Google Play Music, create media player controls, access a stored list of recent activity, show storage space info\n\n<b>Solution:</b> DrawerLayout APIs, set clear top flag on home intent, MediaPlayer APIs, SharedPreferences APIs, Fragments, Environment class, Statfs class, File class</string>
+    <string name="main_test_text">Testing scrolling with fixed footer.\n\n\nTesting scrolling with fixed footer.\n\n\nTesting scrolling with fixed footer.\n\n\nTesting scrolling with fixed footer.\n</string>
+    <string name="album_info_text"><b>Album info screen:</b> Displays album info with option to edit id3 tags and a static footer with playback controls\n\n<b>Technical hurdles:</b> Create media player controls, display album info, make album info editable\n\n<b>Solution:</b> MediaPlayer, MediaStore, mp3agic library</string>
+    <string name="artist_info_text"><b>Artist info screen:</b> Displays artist info with option to edit id3 tags and a static bar at the bottom with playback controls\n\n<b>Technical hurdles:</b> Create media player controls, display artist info, edit tags\n\n<b>Solution:</b> MediaPlayer, MediaStore, mp3agic library</string>
+    <string name="library_info_text"><b>Library screen:</b> Displays scrolling list of artists, albums, or songs stored in library \n\n<b>Technical hurdles:</b> Tab switcher at top, create media player controls, allow editing of tags\n\n<b>Solution:</b> TabHost and/or FragmentTabHost, MediaPlayer, MediaStore, mp3agic library</string>
+    <string name="lyrics_info_text"><b>Lyrics screen:</b> Displays lyrics for currently playing song \n\n<b>Technical hurdles:</b> Access database of lyrics to display\n\n<b>Solution:</b> Musixmatch lyrics APIs</string>
+    <string name="settings_info_text"><b>Settings screen:</b> Configuration options\n\n<b>Technical hurdles:</b> Creating functional options without using View objects\n\n<b>Solution:</b> Preference APIs, PreferenceActivity, PreferenceFragment, SharedPreferences</string>
+    <string name="settings_test_setting">Use Preference APIs</string>
+    <string name="settings_dark_theme">Dark theme</string>
+    <string name="settings_dont">Don\'t do it this way</string>
+</resources>
